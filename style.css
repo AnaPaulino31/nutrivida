@@ -236,6 +236,45 @@ header {
     color: white;
   }
   
+/*quadrados com informações*/
+.cards-mvv {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    background-color: #f5f7ef;
+  }
+  
+  .card-mvv {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+  }
+  
+  .card-mvv img {
+    width: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .card-mvv h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  .card-mvv p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+
+
+
+
   /*segundo banner*/
 
 
