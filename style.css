@@ -280,7 +280,7 @@ header {
 
   .sub-banner {
     background-color: #e5f5eb; /* verde clarinho, combina com o tema */
-    padding: 20px 0; /* altura do banner */
+    padding: 110px 0; /* altura do banner */
     text-align: center;
   }
   
@@ -293,3 +293,17 @@ header {
   }
 
   
+  .sub-banner {
+    height: 300px; /* ou outro valor maior que estiver usando */
+    background-image: url('sub-banner.png'); /* se tiver imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*espaçamento entre o rodapé e o segundo banner*/
+  .sub-banner {
+  /* seu estilo atual */
+  margin-bottom: 200px; /* ou mais, se quiser mais espaço */
+}
